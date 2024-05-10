@@ -17,7 +17,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     animation.runImageAnimation(
     sprite,
     assets.animation`hammerAnimation`,
-    50,
+    100,
     false
     )
     animation.runImageAnimation(
